@@ -15,7 +15,7 @@ from rich.progress import (
     TimeRemainingColumn,
 )
 
-from llm_py.tokenizer import train
+from llm.tokenizer import train
 
 
 def count_chunks(

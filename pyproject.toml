@@ -1,5 +1,5 @@
 [project]
-name = "llm-py"
+name = "llm"
 version = "0.1.0"
 description = "Catching up with current LLM research, one epoch at a time"
 readme = "README.md"

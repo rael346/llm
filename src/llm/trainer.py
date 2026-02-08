@@ -5,7 +5,7 @@ import torch
 import torch.nn.functional as F
 from rich.progress import track
 
-from llm_py.gpt import GPT, GPTConfig
+from llm.gpt import GPT, GPTConfig
 
 
 @dataclass

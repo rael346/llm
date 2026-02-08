@@ -3,7 +3,7 @@ from dataclasses import dataclass
 import pytest
 import regex
 
-from llm_py.tokenizer import Chunk, Pair, get_merges_inplace
+from llm.tokenizer import Chunk, Pair, get_merges_inplace
 
 TEST_CORPUS = """
 Shipment & Transport-Sea, Air, Rail, Road, Pipeline

@@ -1,7 +1,7 @@
 import torch
 
-from llm_py.gpt import GPTConfig
-from llm_py.trainer import TrainConfig, Trainer
+from llm.gpt import GPTConfig
+from llm.trainer import TrainConfig, Trainer
 
 
 def main():

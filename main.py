@@ -6,7 +6,7 @@ import regex
 import torch
 from torch.utils.data import DataLoader, Dataset, IterableDataset
 
-from llm_py.tokenizer import Chunk, Pair, decode, encode_inplace
+from llm.tokenizer import Chunk, Pair, decode, encode_inplace
 
 
 def line_to_pair(line: str) -> Pair:
